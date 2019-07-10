@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+.main-wrapper {
+  padding-top: $headerHeight + 1;
+}
+
+.header-wrapper {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 1500;
+}
+
+.header {
+  width: $baseWidth;
+  height: $headerHeight;
+  margin: 0 auto;
+  border-bottom: solid 1px #e6e6e6;
+}
+
+.main-container {
+  width: $baseWidth;
+  margin: 0 auto;
+}
