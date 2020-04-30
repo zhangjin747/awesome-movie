@@ -12,7 +12,12 @@
         <el-menu-item index="2">电视剧</el-menu-item>
         <el-menu-item index="3">页面3</el-menu-item>
       </el-menu>
-      <el-input v-model="searchText" placeholder="搜索" class="search" suffix-icon="el-icon-search"></el-input>
+      <el-input
+        v-model="searchText"
+        placeholder="搜索"
+        class="search"
+        suffix-icon="el-icon-search"
+      ></el-input>
     </header>
   </div>
 </template>

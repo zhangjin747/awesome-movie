@@ -16,15 +16,20 @@
                   <img :src="movie.cover" width="150" />
                 </div>
                 <div class="info">
-                  <span class="title">{{movie.title}}</span>
-                  <span class="rate">{{movie.rate}}</span>
+                  <span class="title">{{ movie.title }}</span>
+                  <span class="rate">{{ movie.rate }}</span>
                 </div>
               </a>
             </el-card>
           </el-col>
         </el-row>
         <el-row>
-          <el-col :span="24" class="more" v-show="isShowMore" @click.native="loadMore">
+          <el-col
+            :span="24"
+            class="more"
+            v-show="isShowMore"
+            @click.native="loadMore"
+          >
             <span>加载更多</span>
           </el-col>
         </el-row>

@@ -5,9 +5,10 @@
       v-for="tag in tags"
       :key="tag"
       size="mini"
-      :class="name === tag? 'active':''"
+      :class="name === tag ? 'active' : ''"
       @click="filterMovie(tag)"
-    >{{ tag }}</el-button>
+      >{{ tag }}</el-button
+    >
   </div>
 </template>
 
