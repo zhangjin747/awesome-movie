@@ -7,10 +7,10 @@
         :default-active="activeIndex"
         class="menuBar"
       >
-        <el-menu-item index="/">首页</el-menu-item>
-        <el-menu-item index="1">电影</el-menu-item>
-        <el-menu-item index="2">电视剧</el-menu-item>
-        <el-menu-item index="3">页面3</el-menu-item>
+        <el-menu-item index="1">正在热映</el-menu-item>
+        <el-menu-item index="2">即将上映</el-menu-item>
+        <el-menu-item index="3">Top250</el-menu-item>
+        <el-menu-item index="4">页面3</el-menu-item>
       </el-menu>
       <el-input
         v-model="searchText"
@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       searchText: '',
-      activeIndex: '/',
+      activeIndex: '3',
     };
   },
 };

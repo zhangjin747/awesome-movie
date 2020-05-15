@@ -1,13 +1,13 @@
 import request from '@/utils/request';
 
-export function getMovies(params) {
-  return request({
-    url: '/j/new_search_subjects',
-    method: 'get',
-    params,
-  });
+export function getTop250() {
+  return request.get('/top250');
 }
 
-export function add() {
-  return request({});
+export function getInTheaters() {
+  return request.get('/in_theaters');
+}
+
+export function getComingSoon() {
+  return request.get('/coming_soon');
 }

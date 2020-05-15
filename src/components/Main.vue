@@ -7,7 +7,6 @@
 </template>
 
 <script>
-// import Carousel from './Carousel.vue';
 import MovieList from './MovieList.vue';
 
 export default {
